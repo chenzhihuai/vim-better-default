@@ -152,7 +152,7 @@ set background=dark         " Assume dark background
 "set cursorline              " Highlight current line
 set fileformats=unix,dos,mac        " Use Unix as the standard file type
 set number                  " Line numbers on
-set relativenumber          " Relative numbers on
+"set relativenumber          " Relative numbers on
 set fillchars=stl:\ ,stlnc:\ ,fold:\ ,vert:│
 
 if !exists('$VIMHOME')
