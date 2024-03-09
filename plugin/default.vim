@@ -28,7 +28,7 @@ if !has('nvim')
   set encoding=utf-8             " Set default encoding
   set history=10000              " Maximum history record
   set hlsearch                   " Highlight search terms
-  "set incsearch                  " Find as you type search
+  set incsearch                  " Find as you type search
   set laststatus=2               " Always show status line
   set mouse=a                    " Automatically enable mouse usage
   set smarttab                   " Smart tab
@@ -43,8 +43,8 @@ endif
 set shortmess=atOI " No help Uganda information, and overwrite read messages to avoid PRESS ENTER prompts
 set ignorecase     " Case insensitive search
 set smartcase      " ... but case sensitive when uc present
-set scrolljump=5   " Line to scroll when cursor leaves screen
-set scrolloff=3    " Minumum lines to keep above and below cursor
+set scrolljump=3   " Line to scroll when cursor leaves screen
+set scrolloff=2    " Minumum lines to keep above and below cursor
 set nowrap         " Do not wrap long lines
 set shiftwidth=4   " Use indents of 4 spaces
 set tabstop=4      " An indentation every four columns
